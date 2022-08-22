@@ -1,0 +1,208 @@
+.header2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_mouse {
+    text-decoration: none;
+    color: white;
+}
+
+.verizon_follow {
+    position: absolute;
+    right: 15px;
+}
+
+.verizon_text{
+    position: absolute;
+    left: 15px;
+}
+
+.footer_ver{
+    height: 120px;
+}
+
+.footer_div{
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #aaa;
+}
+
+.header_mouse:hover {
+    color: green;
+}
+
+.message {
+    background-color: black;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.message_1 {
+    color: #aaa;
+    font-size: 50px;
+}
+
+.logo {
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.header_1 {
+    text-align: left;
+    color: white;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.header1 {
+    text-align: right;
+    color: aliceblue;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.mouse {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.mouse:hover {
+    color: chartreuse;
+}
+
+.header_2 {
+    padding-right: 10px;
+}
+
+/* p {
+    color: aliceblue;
+} */
+
+/* ---------------------------*/
+
+.card_style {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.smalltrash {
+    display: none;
+}
+
+
+.card_style:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.iteamsdetails {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.items_img {
+    flex: .4;
+}
+
+.items_img img {
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.details {
+    flex: .5;
+}
+
+;
+
+.rating {
+    background-color: green;
+}
+
+@media (max-width:772px) {
+    .iteamsdetails {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+    .smalltrash {
+        display: block;
+    }
+
+    .largetrash {
+        display: none;
+    }
+
+    .emptycart_img {
+        margin-right: 50px;
+    }
+
+    .smallclose {
+        display: none;
+    }
+
+    /* individual iteams details */
+
+    .items_img img {
+        width: 16rem;
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+Edit in JSFiddle Result HTML CSS Resources
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+}
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}

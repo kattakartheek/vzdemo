@@ -1,0 +1,139 @@
+.searchInputs {
+  margin-top: 105px;
+  display: flex;
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 40px;
+  width: 300px;
+}
+
+.searchIcon {
+  height: 40px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.search_file {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-color: dimgrey;
+}
+
+.shop{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-color: dimgrey;
+}
+
+.shop_items{
+  height: auto;
+  width: 200px;
+  background-color: black;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.cart_items{
+  height: auto;
+  width: 200px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  right: 30px;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+
+.shop_items a:hover{
+  color: green;
+}
+
+.shop_items a{
+  color: aliceblue;
+  margin: 2px;
+}
+
+.shop_items a:link{
+  text-decoration: none;
+}
+
+.bullet{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search_icon {
+  position: absolute;
+  right: 80px;
+}
+
+.search_bag {
+  position: absolute;
+  right: 20px;
+}
+
+.search_bag:hover{
+  cursor: pointer;
+}
+
+/* a:hover {
+  background-color: lightgrey;
+} */
+
+#clearBtn {
+  cursor: pointer;
+}
